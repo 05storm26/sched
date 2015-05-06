@@ -53,6 +53,7 @@ public class PreemptiveScheduler extends SchedulingAlgorithm {
 					out.println("Process registered:     " + process);
 					System.out.println("Process registered:     " + process
 							+ " done");
+					continue;
 				}
 
 				if (process.remainFromSlice == 0) {
@@ -69,6 +70,7 @@ public class PreemptiveScheduler extends SchedulingAlgorithm {
 					out.println("Process registered:     " + process);
 					System.out.println("Process registered:     " + process
 							+ " sliceisover");
+					continue;
 
 				}
 
@@ -86,6 +88,7 @@ public class PreemptiveScheduler extends SchedulingAlgorithm {
 					out.println("Process registered:     " + process);
 					System.out.println("Process registered:     " + process
 							+ " blocking");
+					continue;
 				}
 				process.cpudone++;
 				process.remainFromSlice--;

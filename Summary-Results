@@ -1,9 +1,9 @@
 Scheduling Type: Round-Robin (Preemptive)
 Scheduling Name: First-Come First-Served with respect to max time slice.
-Simulation Run Time: 3192
+Simulation Run Time: 3437
 Mean: 1100
 Standard Deviation: 510
 Process #	CPU Time	IO Blocking	CPU Completed	CPU Blocked
-0		1166 (ms)	100 (ms)	1166 (ms)	0 times
-1		1013 (ms)	500 (ms)	1013 (ms)	2 times
-2		1013 (ms)	30 (ms)		1013 (ms)	33 times
+0		1013 (ms)	100 (ms)	1013 (ms)	10 times
+1		1212 (ms)	500 (ms)	1212 (ms)	2 times
+2		1212 (ms)	30 (ms)		1212 (ms)	40 times

@@ -18,10 +18,10 @@ public class sProcess {
 	  } 
   
   public String toString() {
-	  return "{id: " + this.id + ", cputime: " + this.cputime  + 
+	  return "id: " + this.id + ", cputime: " + this.cputime  + 
 			  ", ioblocking: " + this.ioblocking + 
 			  ", cpudone: " + this.cpudone + ", next: " +
 			  this.ionext + ", numblocked: " + this.numblocked + 
-			  ", remainFromSlice: " + this.remainFromSlice  + "}"; 
+			  ", remainFromSlice: " + this.remainFromSlice  + ""; 
   }
 }
